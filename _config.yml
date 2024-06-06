@@ -3,9 +3,7 @@
 title: Sagar Syal's Portfolio
 email: sagarsyal83@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal portfolio website. I am a Computer systems engineering student at Carleton University. 
-  I am passionate about robotics and I am always looking for new opportunities to learn and grow. 
-  I am currently looking for a position in software development. Feel free to reach out to me if you have any opportunities or just want to chat.
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
