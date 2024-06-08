@@ -20,13 +20,6 @@ September 2020 - April 2024
 
 
 
-### Key Projects:
-
-- **Autonomous Car Navigation:** Developed algorithms for real-time path planning and obstacle avoidance using LIDAR and cameras.
-- **Surgical Robotics:** Designed and implemented control algorithms for robotic surgical instruments using a Meca500 robot for laparoscopic pancreaticoduodenectomy (LPD).
-
-
-
 ## Relevant Certifications
 
 ### [Certification Name]
