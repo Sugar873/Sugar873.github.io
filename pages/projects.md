@@ -4,83 +4,95 @@ title: Projects
 permalink: /projects/
 ---
 
+<details>
+    <summary>
+        <h3 style="display: inline-block">Autonomous Car Navigation and Mapping</h3>
+    </summary>
+    <h4>Key Components of the Project</h4>
+    <h5>Motivation</h5>
+    <p>Autonomous rovers have proven beneficial in various high-risk and remote environments, such as military operations, space exploration, and nuclear zones. This project aimed to develop techniques to analyze performance differences in autonomous mapping and navigation, considering both hardware and software perspectives.</p>
+    <h5>Proposed Solution</h5>
+    <figure style="display: flex; flex-direction: column; align-items: center;">
+        <img src="/assets/images/robot.jpg" alt="Image of Highwonder JetAuto" width="650" height="500">
+        <figcaption><strong>Highwonder JetAuto</strong></figcaption>
+    </figure>    
+    <ul>
+        <li>Sensor Integration: Utilized Hiwonder JetAuto robot equipped with RPLIDAR A1 and other sensors for obstacle detection.</li>
+        <li>SLAM Algorithm: Employed Robot Operating System (ROS1) to manage SLAM algorithm nodes for real-time mapping and localization.</li>
+        <li>Path Planning: Developed dynamic path planning algorithms to navigate around obstacles and optimize routes.</li>
+    </ul>
+    <h5>System Design</h5>
+    <ul>
+        <li>Components: The system included LiDAR, RGB-D camera, Hall Encoder Geared Motors, ROS Control System, and an 11.1V 6000mAh Lithium Phosphate Battery.</li>
+        <li>Integration: Sensors were mounted on the robot to scan the environment, generate maps, and navigate to specified points while avoiding obstacles. Multiple iterations of the hardware design were tested for optimal performance.</li>
+    </ul>
+    <h5>Experiments and Results</h5>
+    <ul>
+    <li>Incident Handling: An electrical fire incident led to a shift in focus to simulation-based testing, using Gazebo and RVIZ for visualization and performance analysis. For more information the incident report is listed at the bottom of this project</li>
+        <figure style="display: flex; flex-direction: column; align-items: center;">
+            <img src="/assets/images/robot_on_fire.jpg" alt="Image of Highwonder JetAuto" width="250" height="250">
+            <figcaption>Hiwonder JetAuto Self Combusting</figcaption>
+        </figure>
+        <li>Test Scenarios: The system was tested in a simulated environment due to safety issues with the physical robot. Various exploration and mapping algorithms were evaluated.</li>
+        <li>Validation: The JetAuto robot successfully generated maps and navigated through complex environments. Hector SLAM, Karto SLAM, and Gmapping were compared, with Gmapping demonstrating the best performance.</li>
+        <div style="display: flex; justify-content: center;">
+            <video width="630" height="490" controls>
+             <source src="/assets/videos/DemoDrive1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    <div style="display: flex; justify-content: center;">
+        <video width="630" height="490" controls>
+            <source src="/assets/videos/DemoDrive2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    </ul>
+    <h5>Conclusion</h5>
+    <p>The project successfully developed an autonomous mapping and navigation system using ROS and SLAM algorithms, despite challenges with hardware safety. Future improvements include refining obstacle detection and further optimizing path planning algorithms in a simulation environment.</p>
+    <p><a href="/pages/pdfs/Autonomous_Car_Navigation">Autonomous Car Navigation and Mapping Project Report</a></p>
+    <p><a href="/pages/pdfs/Incident_Report">Autonomous Car Navigation and Mapping Incident Report</a></p>
+</details>
 
-
-## Autonomous Mapping and Navigation - Capstone Project
-Team Members:
-- Himanshu Singh (Software Engineer)
-- Ray Prina (Computer Systems Engineer)
-- Sangat Buttar (Computer Systems Engineer)
-- Sagar Syal (Computer Systems Engineer)
-- Sundar Vengadeswaran (Computer Systems Engineer)
-
-### Project Overview
-In our Engineering Capstone Project, we developed an Autonomous Mapping and Navigation system using the Hiwonder JetAuto robot. The project aimed to create techniques for efficient autonomous exploration and mapping, applicable to various high-risk and inaccessible environments.
-
-### Motivation
-Autonomous rovers are increasingly beneficial in dangerous or hard-to-reach areas, such as military zones, space, and deep-sea exploration. Our project focused on evaluating performance differences in autonomous mapping and navigation techniques from both hardware and software perspectives.
-
-### System Design
-- Hardware: The robot was equipped with LiDAR sensors, Hall Encoder Motors, and a ROS Control System.
-- Software: Utilizing ROS1 (Robot Operating System), we integrated multiple SLAM algorithms for mapping and navigation.
-- Simulation: Gazebo and RVIZ were used to simulate and visualize the environment and sensor data.
-
-### Key Achievements
-- Health and Safety: Managed several safety issues, including an electrical fire which led to the complete loss of the robotic system. This incident forced us to adapt quickly and transition the project to a simulation-based focus.
-- Mapping Algorithms: Tested and compared various SLAM algorithms (Hector, Karto, Gmapping) for performance and accuracy.
-- Exploration Algorithms: Implemented and evaluated different exploration algorithms, with RRT proving most effective.
-- Simulation Performance: Used the EVO Python package for detailed performance analysis in a simulated ROS2 environment.
-
-### Challenges Overcome
-- Communication: Resolved issues with network configurations and IP address conflicts.
-- Time Synchronization: Implemented an NTP server to address timing discrepancies across devices.
-- Power Supply Issues: Identified and mitigated power delivery problems that caused hardware failures.
-
-### Incident
-During the testing phase, our robot suffered a catastrophic failure due to power supply issues, resulting in an electrical fire and the destruction of the system. Despite this significant setback, our team demonstrated resilience and adaptability by shifting our focus to a fully digital approach. We migrated our project to a ROS2-based simulation environment, ensuring the continuation and successful completion of our project objectives.
-To hear more about the incident and view our incident report click [here](#).
-
-### Simulation and Algorithm Results
-Simulation Process: After the incident, we transitioned to a fully digital approach using Gazebo for simulation and RVIZ for visualization. This allowed us to test and validate various SLAM and exploration algorithms in a controlled environment. Remarkably, we completed this transition and conducted the simulations within three weeks of the project deadline.
-
-#### Mapping Algorithms:
-- Hector SLAM:
-  - Performance: Struggled in complex environments with inconsistent map generation.
-  - Strengths: Capable of real-time mapping without requiring high-quality odometry.
-  - Weaknesses: Poor performance in environments lacking distinct features, resulting in less detailed maps.
-- Karto SLAM:
-  - Performance: Better accuracy and detail in map construction compared to Hector SLAM.
-  - Strengths: Utilizes both LIDAR and odometry data, providing more reliable maps.
-  - Weaknesses: Slightly more computationally intensive, requiring more processing power.
-- Gmapping:
-  - Performance: Best performance among the tested algorithms, providing highly detailed and reliable maps.
-  - Strengths: Uses the Rao-Blackwellized Particle Filter, effectively integrating odometry and LIDAR data.
-  - Weaknesses: Requires careful tuning of parameters for optimal performance.
-
-#### Exploration Algorithms:
-- Frontiers:
-  - Performance: Effective in large, open spaces but struggled in environments with many obstacles.
-  - Strengths: Systematically explores boundaries between known and unknown areas.
-  - Weaknesses: Increased frontiers in complex environments led to more extensive exploration needs.
-- ExploreLite:
-  - Performance: Efficient in proximity-based exploration but less thorough in dynamic environments.
-  - Strengths: Reduces redundant travel by prioritizing nearby unexplored areas.
-  - Weaknesses: May overlook important distant regions, leading to incomplete exploration.
-- RRT Exploration:
-  - Performance: Best results in navigating complex environments with rapid tree expansion.
-  - Strengths: Balances exploration of large areas and cluttered spaces efficiently.
-  - Weaknesses: Requires more computational resources to manage rapid tree growth.
-
-#### Performance Analysis:
-Using the EVO Python package, we conducted a detailed performance analysis in a simulated ROS2 environment. This included:
-- Trajectory Analysis: Evaluated the accuracy of the robot's estimated position compared to its actual position.
-- Odometry Accuracy: Assessed how well the robot maintained its position estimates over time.
-- Map Accuracy: Analyzed the quality and reliability of the generated maps.
-
-#### Results:
-- Gmapping: Produced the most accurate maps with the highest level of detail, effectively handling uncertainties in localization and map construction.
-- RRT Exploration: Outperformed other algorithms by efficiently covering large areas and navigating through complex environments.
-- Simulation Environment: Allowed for thorough testing and validation, ensuring the reliability of our algorithms and system design.
-
-### Conclusion
-Our project demonstrated the practical application of advanced engineering concepts in developing autonomous systems. Despite hardware setbacks, we successfully transitioned to a robust simulation environment within a tight timeframe, showcasing our adaptability, problem-solving skills, and commitment to continuous improvement.
+<details>
+    <summary>
+        <h3 style="display: inline-block">Dynamic Trajectory Generation for LPD Surgery</h3>
+    </summary>
+    <h4>Key Components of the Project</h4>
+    <h5>Motivation</h5>
+    <p>Laparoscopic Pancreaticoduodenectomy (LPD) offers a minimally invasive approach to pancreatic cancer surgery, reducing blood loss and complications. However, the deep location of the pancreas and the risk of organ and vascular injuries make LPD challenging. This project aimed to enhance patient safety and surgical outcomes through dynamic obstacle detection and trajectory generation.</p>
+    <h5>Proposed Solution</h5>
+    <figure style="display: flex; flex-direction: column; align-items: center;">
+        <img src="/assets/images/surgical_arm.jpg" alt="Image of Meca500 with Camera" width="650" height="500">
+        <figcaption><strong>Highwonder JetAuto</strong></figcaption>
+    </figure>
+    <ul>
+        <li>Obstacle Detection: Utilized OpenCV to identify obstacles based on color differentiation.</li>
+        <li>Depth Measurement: Employed an HC-SR04 ultrasonic sensor to obtain depth measurements.</li>
+        <li>Trajectory Generation: Developed a simplified intersection-based algorithm to create efficient paths around obstacles.</li>
+    </ul>
+    <h5>System Design</h5>
+    <ul>
+        <li>Components: Meca500 robotic arm, web camera, HC-SR04 ultrasonic sensor, styrofoam obstacles.</li>
+        <li>Integration: The camera and ultrasonic sensor were mounted on the robotic arm to detect and localize obstacles, transforming their positions to the World Reference Frame (WRF).</li>
+    </ul>
+    <h5>Experiments and Results</h5>
+    <ul>
+        <li>Test Scenarios: The system was tested with stationary and moving obstacles, demonstrating successful obstacle recognition and dynamic adjustment of the robot's path.</li>
+        <li>Validation: The integrated system accurately avoided obstacles and navigated to the target, confirming the effectiveness of the obstacle detection and trajectory generation components.</li>
+        <div style="display: flex; justify-content: center;">
+            <video width="470" height="390" controls>
+                <source src="/assets/videos/ArmTest1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    <div style="display: flex; justify-content: center;">
+        <video width="470" height="390" controls>
+            <source src="/assets/videos/ArmTest2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    </ul>
+    <h5>Conclusion</h5>
+    <p>The project developed a functional system for enhancing robotic-assisted LPD surgery through dynamic obstacle detection and trajectory generation. Future improvements include implementing a more advanced trajectory algorithm and refining obstacle differentiation.</p>
+</details>

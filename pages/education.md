@@ -4,6 +4,7 @@ title: Education
 permalink: /education/
 ---
 
+
 ## Bachelor's Degree in Computer Systems Engineering
 Carleton University, Ottawa, Ontario
 September 2020 - April 2024
