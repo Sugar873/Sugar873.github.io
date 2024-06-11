@@ -95,4 +95,5 @@ permalink: /projects/
     </ul>
     <h5>Conclusion</h5>
     <p>The project developed a functional system for enhancing robotic-assisted LPD surgery through dynamic obstacle detection and trajectory generation. Future improvements include implementing a more advanced trajectory algorithm and refining obstacle differentiation.</p>
+    <p><a href="/pages/pdfs/surgical_robotics">LPD surgurcal project Report</a></p>
 </details>
