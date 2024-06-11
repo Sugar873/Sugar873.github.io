@@ -64,7 +64,7 @@ permalink: /projects/
     <h5>Proposed Solution</h5>
     <figure style="display: flex; flex-direction: column; align-items: center;">
         <img src="/assets/images/surgical_arm.jpg" alt="Image of Meca500 with Camera" width="650" height="500">
-        <figcaption><strong>Highwonder JetAuto</strong></figcaption>
+        <figcaption><strong>Meca500</strong></figcaption>
     </figure>
     <ul>
         <li>Obstacle Detection: Utilized OpenCV to identify obstacles based on color differentiation.</li>
