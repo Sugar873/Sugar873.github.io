@@ -4,7 +4,10 @@ title: About Me
 permalink: /about/
 ---
 
-Hi, I’m Sagar Syal, a Computer Systems Engineer with a passion for robotics, machine learning, and embedded systems. I hold a Bachelor’s degree in Computer Systems Engineering from Carleton University and have hands-on experience as a Software Engineering Intern at Romaeris.
+<div style="display: flex; align-items: center;">
+  <p style="margin-right: 20px;">Hi, I’m Sagar Syal, a Computer Systems Engineer with a passion for robotics, machine learning, and embedded systems. I hold a Bachelor’s degree in Computer Systems Engineering from Carleton University and have hands-on experience as a Software Engineering Intern at Romaeris.</p>
+  <img src="/assets/images/2-DSC06042 - Copy.jpg" alt="Sagar Syal" style="width: 200px;">
+</div>
 
 I’m currently exploring new technologies in:
 
