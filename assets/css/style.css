@@ -318,7 +318,7 @@ Theme Styles
 body {
   box-sizing: border-box;
   color: #373737;
-  background: #212121;
+  background: #214b61;
   font-size: 16px;
   font-family: "Myriad Pro", Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -640,7 +640,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: #214b61;
 }
 
 /*******************************************************************************
@@ -726,7 +726,7 @@ Small Device Styles
   }
 }
 .nav {
-  background-color: #031c51;
+  background-color: #214b61;
   overflow: hidden;
 }
 
@@ -749,6 +749,35 @@ Small Device Styles
 }
 
 .nav a:hover {
-  background-color: #111;
+  background-color: #5dced1;
+}
+
+/* Contact Information */
+#footer_wrap .contact-info {
+  color: #ffffff; /* Change the text color */
+  font-size: 14px; /* Change the text size */
+  line-height: 1.5; /* Change the line spacing */
+}
+
+#footer_wrap .contact-info a img {
+  background-color: transparent;
+}
+
+.contact-info a {
+  margin-right: 20px; /* Add space to the right of each link */
+  transition: transform 0.3s; /* Add a transition for the transform property */
+}
+
+.contact-info a:hover {
+  transform: scale(1.2); /* Increase the size of the link when it's hovered */
+}
+
+.contact-info a:hover i {
+  color: #5dced1; /* Change the color of the icons when hovered */
+}
+
+.contact-info i {
+  font-size: 24px; /* Increase the size of the icons */
 }
 /*# sourceMappingURL=style.css.map */
+
