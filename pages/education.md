@@ -6,8 +6,8 @@ permalink: /education/
 
 
 ## Bachelor's Degree in Computer Systems Engineering
-Carleton University, Ottawa, Ontario
-September 2019 - April 2024
+**Carleton University**, *Ottawa, Ontario
+April 2024*
 
 ### Key Courses:
 
@@ -23,8 +23,8 @@ September 2019 - April 2024
 
 ## Relevant Certifications
 
-### [Certification Name]
-Issuing Organization, Date Issued
+### AWS Certified Solutions Architect – Associate
+**Amazon Web Services (AWS)**, *In Progress*
 
-Brief description of the certification and its relevance.
+This certification demonstrates knowledge in designing and deploying scalable, cost-efficient, and secure applications on AWS. It validates skills in cloud architecture and services, enhancing expertise in cloud solutions.
 

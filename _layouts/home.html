@@ -2,22 +2,64 @@
 layout: default
 ---
 <div class="home">
-  <h1>Hi, I'm <span class="highlight">Sagar</span></h1>
+  <h1>Hi, I'm <span>Sagar</span></h1>
   <p>Welcome to my personal portfolio website! I'm a Computer Systems Engineering graduate from Carleton University, passionate about robotics and constantly seeking new opportunities to learn and grow.</p>
   <p>I coded this entire site myself and invite you to explore my projects and work experience. I'm currently searching for a software development position. If you have any opportunities or just want to chat, feel free to reach out!</p>
-
-  <nav>
+  <nav class="nav-table">
     <table>
-      <tr>
-        <td><a href="#about-me"><img src="path/to/about-me/image.png" alt="About Me"> About Me</a></td>
-        <td><a href="#resume"><img src="path/to/resume/image.png" alt="Resume"> Resume</a></td>
-        <td><a href="#projects"><img src="path/to/projects/image.png" alt="Projects"> Projects</a></td>
-      </tr>
-      <tr>
-        <td><a href="#experience"><img src="path/to/experience/image.png" alt="Experience"> Experience</a></td>
-        <td><a href="#education"><img src="path/to/education/image.png" alt="Education"> Education</a></td>
-        <td><a href="#contact"><img src="path/to/contact/image.png" alt="Contact"> Contact</a></td>
-      </tr>
+        <tr>
+            <td>
+                <a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>
+                    <div class="icon-text">
+                        <i class="fa-solid fa-user"></i>
+                        <span>About Me</span>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="/pages/resume" {% if page.url == "/pages/resume" %}class="active"{% endif %}>
+                    <div class="icon-text">
+                        <i class="fa-solid fa-file"></i>
+                        <span>Resume</span>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="/projects/" {% if page.url == "/projects/" %}class="active"{% endif %}>
+                    <div class="icon-text">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>Projects</span>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/experience/" {% if page.url == "/experience/" %}class="active"{% endif %}>
+                    <div class="icon-text">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>Experience</span>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="/education/" {% if page.url == "/education/" %}class="active"{% endif %}>
+                    <div class="icon-text">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>Education</span>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>
+                    <div class="icon-text">
+                        <i class="fa-solid fa-address-book"></i>
+                        <span>Contact</span>
+                    </div>
+                </a>
+            </td>
+        </tr>
     </table>
-  </nav>
+</nav>
+
 </div>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Projects
 permalink: /projects/
 ---
@@ -12,10 +12,10 @@ permalink: /projects/
     <h5>Motivation</h5>
     <p>Autonomous rovers have proven beneficial in various high-risk and remote environments, such as military operations, space exploration, and nuclear zones. This project aimed to develop techniques to analyze performance differences in autonomous mapping and navigation, considering both hardware and software perspectives.</p>
     <h5>Proposed Solution</h5>
-    <figure style="display: flex; flex-direction: column; align-items: center;">
-        <img src="/assets/images/robot.jpg" alt="Image of Highwonder JetAuto" width="650" height="500">
-        <figcaption><strong>Highwonder JetAuto</strong></figcaption>
-    </figure>    
+    <figure style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+    <img src="/assets/images/robot.jpg" alt="Image of Highwonder JetAuto" style="max-width: 100%; height: auto;">
+    <figcaption><strong>Highwonder JetAuto</strong></figcaption>
+</figure>
     <ul>
         <li>Sensor Integration: Utilized Hiwonder JetAuto robot equipped with RPLIDAR A1 and other sensors for obstacle detection.</li>
         <li>SLAM Algorithm: Employed Robot Operating System (ROS1) to manage SLAM algorithm nodes for real-time mapping and localization.</li>
@@ -63,7 +63,7 @@ permalink: /projects/
     <p>Laparoscopic Pancreaticoduodenectomy (LPD) offers a minimally invasive approach to pancreatic cancer surgery, reducing blood loss and complications. However, the deep location of the pancreas and the risk of organ and vascular injuries make LPD challenging. This project aimed to enhance patient safety and surgical outcomes through dynamic obstacle detection and trajectory generation.</p>
     <h5>Proposed Solution</h5>
     <figure style="display: flex; flex-direction: column; align-items: center;">
-        <img src="/assets/images/surgical_arm.jpg" alt="Image of Meca500 with Camera" width="650" height="500">
+        <img src="/assets/images/surgical_arm.jpg" alt="Image of Meca500 with Camera" style="max-width: 100%; height: auto;">
         <figcaption><strong>Meca500</strong></figcaption>
     </figure>
     <ul>

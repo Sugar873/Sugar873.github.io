@@ -1,3 +1,8 @@
+/* body {
+  text-align: justify;
+  text-justify: inter-word;
+} */
+
 .highlight table td {
   padding: 5px;
 }
@@ -407,12 +412,18 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+  border: 1px solid #f6f7f8;
+  border-radius: 10px;
+  box-shadow: 
+    0 1px 1px rgba(0,0,0,0.15),
+    0 10px 0 -5px #eee, 
+    0 10px 1px -4px rgba(0,0,0,0.15), 
+    0 20px 0 -10px #eee, 
+    0 20px 1px -9px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0 0 5px #f6f7f8;
+  -moz-box-shadow: 0 0 5px #f6f7f8;
+  -o-box-shadow: 0 0 5px #f6f7f8;
+  -ms-box-shadow: 0 0 5px #f6f7f8;
 }
 
 p img {
@@ -630,7 +641,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #dddfe1;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
@@ -725,6 +736,7 @@ Small Device Styles
     font-size: 11px;
   }
 }
+
 .nav {
   background-color: #214b61;
   overflow: hidden;
@@ -734,11 +746,11 @@ Small Device Styles
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.nav li {
-  float: left;
-}
+/*Nav Bar*/
 
 .nav a {
   display: block;
@@ -746,17 +758,41 @@ Small Device Styles
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  position: relative;
+}
+
+.nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ffffff;
+  transition: width 0.3s;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.nav a.active::after {
+  width: 100%;
 }
 
 .nav a:hover {
   background-color: #5dced1;
 }
 
+
+
 /* Contact Information */
 #footer_wrap .contact-info {
   color: #ffffff; /* Change the text color */
   font-size: 14px; /* Change the text size */
   line-height: 1.5; /* Change the line spacing */
+  display: flex; /* Add flex display */
+  justify-content: center; /* Center the items horizontally */
 }
 
 #footer_wrap .contact-info a img {
@@ -779,5 +815,49 @@ Small Device Styles
 .contact-info i {
   font-size: 24px; /* Increase the size of the icons */
 }
+
+.home, .page {
+  background: #f2f2f2; /* Change the color as needed */
+  border-radius: 10px; /* Adjust as needed */
+  padding: 20px; /* Adjust as needed */
+}
+
+.nav-table {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-table table {
+  border-collapse: collapse;
+  border: none;
+}
+
+.nav-table td {
+  border: none;
+}
+
+.nav-table i {
+  color: #214b61;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-text i {
+  font-size: 30px; /* Adjust this value to make the icons bigger or smaller */
+  transition: transform 0.3s; /* Add a transition for the transform property */
+}
+
+.icon-text i:hover {
+  transform: scale(1.2); /* Increase the size of the icon when it's hovered */
+}
+
+.icon-text span {
+  margin-top: 10px; /* Adjust this value to change the space between the icon and the text */
+}
+
 /*# sourceMappingURL=style.css.map */
 
