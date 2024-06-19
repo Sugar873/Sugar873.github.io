@@ -8,19 +8,19 @@ I'd love to hear from you! Here's how you can reach me:
 
 ## Email
 
-You can email me at [sagarsyal83@gmail.com](mailto:sagarsyal83@gmail.com).
+You can email me at [<ins>sagarsyal83@gmail.com</ins>](mailto:sagarsyal83@gmail.com).
 
 ## LinkedIn
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/sagar-syal).
+Connect with me on [<ins>LinkedIn</ins>](https://www.linkedin.com/in/sagar-syal).
 
 ## GitHub
 
-Check out my projects on [GitHub](https://github.com/Sugar873).
+Check out my projects on [<ins>GitHub</ins>](https://github.com/Sugar873).
 
 ## Phone
 
-You can reach me at [+1 (647) 685-3960](tel:+16476853960).
+You can reach me at [<ins>+1 (647) 685-3960</ins>](tel:+16476853960).
 
 ## Location
 

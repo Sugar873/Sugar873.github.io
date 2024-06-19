@@ -3,281 +3,7 @@
   text-justify: inter-word;
 } */
 
-.highlight table td {
-  padding: 5px;
-}
 
-.highlight table pre {
-  margin: 0;
-}
-
-.highlight .cm {
-  color: #777772;
-  font-style: italic;
-}
-
-.highlight .cp {
-  color: #797676;
-  font-weight: bold;
-}
-
-.highlight .c1 {
-  color: #777772;
-  font-style: italic;
-}
-
-.highlight .cs {
-  color: #797676;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.highlight .c, .highlight .cd {
-  color: #777772;
-  font-style: italic;
-}
-
-.highlight .err {
-  color: #a61717;
-  background-color: #e3d2d2;
-}
-
-.highlight .gd {
-  color: #000000;
-  background-color: #ffdddd;
-}
-
-.highlight .ge {
-  color: #000000;
-  font-style: italic;
-}
-
-.highlight .gr {
-  color: #aa0000;
-}
-
-.highlight .gh {
-  color: #797676;
-}
-
-.highlight .gi {
-  color: #000000;
-  background-color: #ddffdd;
-}
-
-.highlight .go {
-  color: #888888;
-}
-
-.highlight .gp {
-  color: #555555;
-}
-
-.highlight .gs {
-  font-weight: bold;
-}
-
-.highlight .gu {
-  color: #aaaaaa;
-}
-
-.highlight .gt {
-  color: #aa0000;
-}
-
-.highlight .kc {
-  color: #000000;
-  font-weight: bold;
-}
-
-.highlight .kd {
-  color: #000000;
-  font-weight: bold;
-}
-
-.highlight .kn {
-  color: #000000;
-  font-weight: bold;
-}
-
-.highlight .kp {
-  color: #000000;
-  font-weight: bold;
-}
-
-.highlight .kr {
-  color: #000000;
-  font-weight: bold;
-}
-
-.highlight .kt {
-  color: #445588;
-  font-weight: bold;
-}
-
-.highlight .k, .highlight .kv {
-  color: #000000;
-  font-weight: bold;
-}
-
-.highlight .mf {
-  color: #009999;
-}
-
-.highlight .mh {
-  color: #009999;
-}
-
-.highlight .il {
-  color: #009999;
-}
-
-.highlight .mi {
-  color: #009999;
-}
-
-.highlight .mo {
-  color: #009999;
-}
-
-.highlight .m, .highlight .mb, .highlight .mx {
-  color: #009999;
-}
-
-.highlight .sb {
-  color: #d14;
-}
-
-.highlight .sc {
-  color: #d14;
-}
-
-.highlight .sd {
-  color: #d14;
-}
-
-.highlight .s2 {
-  color: #d14;
-}
-
-.highlight .se {
-  color: #d14;
-}
-
-.highlight .sh {
-  color: #d14;
-}
-
-.highlight .si {
-  color: #d14;
-}
-
-.highlight .sx {
-  color: #d14;
-}
-
-.highlight .sr {
-  color: #009926;
-}
-
-.highlight .s1 {
-  color: #d14;
-}
-
-.highlight .ss {
-  color: #990073;
-}
-
-.highlight .s {
-  color: #d14;
-}
-
-.highlight .na {
-  color: #008080;
-}
-
-.highlight .bp {
-  color: #797676;
-}
-
-.highlight .nb {
-  color: #0086B3;
-}
-
-.highlight .nc {
-  color: #445588;
-  font-weight: bold;
-}
-
-.highlight .no {
-  color: #008080;
-}
-
-.highlight .nd {
-  color: #3c5d5d;
-  font-weight: bold;
-}
-
-.highlight .ni {
-  color: #800080;
-}
-
-.highlight .ne {
-  color: #990000;
-  font-weight: bold;
-}
-
-.highlight .nf {
-  color: #990000;
-  font-weight: bold;
-}
-
-.highlight .nl {
-  color: #990000;
-  font-weight: bold;
-}
-
-.highlight .nn {
-  color: #555555;
-}
-
-.highlight .nt {
-  color: #000080;
-}
-
-.highlight .vc {
-  color: #008080;
-}
-
-.highlight .vg {
-  color: #008080;
-}
-
-.highlight .vi {
-  color: #008080;
-}
-
-.highlight .nv {
-  color: #008080;
-}
-
-.highlight .ow {
-  color: #000000;
-  font-weight: bold;
-}
-
-.highlight .o {
-  color: #000000;
-  font-weight: bold;
-}
-
-.highlight .w {
-  color: #bbbbbb;
-}
-
-.highlight {
-  background-color: #f8f8f8;
-}
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -601,50 +327,13 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url("../images/icon_download.png") no-repeat 0% 90%;
-}
 
-.zip_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height: 70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom left;
-}
 
-.tar_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height: 70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-  margin-left: 10px;
-}
-
-.zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
-}
-
-#main_content_wrap {
+/* #main_content_wrap {
   background: #dddfe1;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
-}
+} */
 
 #main_content {
   padding-top: 40px;
@@ -816,11 +505,7 @@ Small Device Styles
   font-size: 24px; /* Increase the size of the icons */
 }
 
-.home, .page {
-  background: #f2f2f2; /* Change the color as needed */
-  border-radius: 10px; /* Adjust as needed */
-  padding: 20px; /* Adjust as needed */
-}
+
 
 .nav-table {
   display: flex;
@@ -859,5 +544,100 @@ Small Device Styles
   margin-top: 10px; /* Adjust this value to change the space between the icon and the text */
 }
 
+:root {
+  --text-color-light: #000000; /* Black text for light mode */
+  --bg-color-light: #dddfe1; /* White background for light mode */
+  --page-color-light: #f2f2f2; /* Light grey page background for light mode */
+
+  --text-color-dark: #ffffff; /* White text for dark mode */
+  --bg-color-dark: #323335; /* Black background for dark mode */
+  --page-color-dark: #252525; /* Dark grey page background for dark mode */
+}
+
+details > summary {
+  color: var(--text-color-light);
+}
+
+figcaption {
+  color: var(--text-color-light);
+}
+
+body.dark-mode details > summary,
+body.dark-mode figcaption {
+  color: var(--text-color-dark);
+}
+
+body, h1, h2, h3, h4, h5, h6, p, span, a {
+  color: inherit;
+}
+
+body {
+  color: var(--text-color-light);
+  background-color: var(--bg-color-light);
+  transition: color 0.5s, background-color 0.5s;
+}
+
+body.dark-mode {
+  color: var(--text-color-dark);
+  background-color: var(--bg-color-dark);
+}
+
+#main_content_wrap {
+  background-color: var(--bg-color-light);
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+
+body.dark-mode #main_content_wrap {
+  background-color: var(--bg-color-dark);
+}
+
+#main_content {
+  padding-top: 40px;
+}
+
+#footer_wrap {
+  background: #214b61;
+}
+
+.home, .page {
+  /* background: #f2f2f2; Change the color as needed */
+  border-radius: 10px; /* Adjust as needed */
+  padding: 20px; /* Adjust as needed */
+}
+
+.page {
+  background-color: var(--page-color-light);
+  transition: background-color 0.5s;
+}
+
+body.dark-mode .page {
+  background-color: var(--page-color-dark);
+}
+
+.home, .page {
+  border-radius: 10px; /* Adjust as needed */
+  padding: 20px; /* Adjust as needed */
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#mode-switcher {
+  order: 2;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: 15px;
+  color: white;
+}
+.nav-table span.light-mode {
+  color: var(--text-color-light); /* Light text for light mode */
+}
+
+.nav-table span.dark-mode {
+  color: var(--text-color-dark); /* Dark text for dark mode */
+}
 /*# sourceMappingURL=style.css.map */
 

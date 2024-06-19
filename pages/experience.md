@@ -27,8 +27,8 @@ May 2023 - September 2023
 - Streamlined data management and accessibility by automating data retrieval and storage processes.
 
 #### Reports:
-- [Error Handling Report](/pages/pdfs/error_handling_report)
-- [Software Comparison Report](/pages/pdfs/software_comparison )
+- [<ins>Error Handling Report</ins>](/pages/pdfs/error_handling_report)
+- [<ins>Software Comparison Report</ins>](/pages/pdfs/software_comparison )
 
 ## Tutor
 Oxford Learning Kanata, Ottawa, Ontario  

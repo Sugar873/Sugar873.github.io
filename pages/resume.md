@@ -1,6 +1,7 @@
 ---
 title: Resume
 layout: page
+permalink: /resume/
 ---
 
 <details>
@@ -105,4 +106,4 @@ layout: page
     </ul>
 </details>
 
-<p><a href="/assets/files/Resume.pdf">Download PDF version</a></p>
+<p><a href="/assets/files/Resume.pdf"><ins>Download PDF version</ins></a></p>

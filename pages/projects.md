@@ -50,8 +50,8 @@ permalink: /projects/
     </ul>
     <h5>Conclusion</h5>
     <p>The project successfully developed an autonomous mapping and navigation system using ROS and SLAM algorithms, despite challenges with hardware safety. Future improvements include refining obstacle detection and further optimizing path planning algorithms in a simulation environment.</p>
-    <p><a href="/pages/pdfs/Autonomous_Car_Navigation">Autonomous Car Navigation and Mapping Project Report</a></p>
-    <p><a href="/pages/pdfs/Incident_Report">Autonomous Car Navigation and Mapping Incident Report</a></p>
+    <p><a href="/pages/pdfs/Autonomous_Car_Navigation"><ins>Autonomous Car Navigation and Mapping Project Report</ins></a></p>
+    <p><a href="/pages/pdfs/Incident_Report"><ins>Autonomous Car Navigation and Mapping Incident Report</ins></a></p>
 </details>
 
 <details>
@@ -95,5 +95,5 @@ permalink: /projects/
     </ul>
     <h5>Conclusion</h5>
     <p>The project developed a functional system for enhancing robotic-assisted LPD surgery through dynamic obstacle detection and trajectory generation. Future improvements include implementing a more advanced trajectory algorithm and refining obstacle differentiation.</p>
-    <p><a href="/pages/pdfs/surgical_robotics">LPD surgurcal project Report</a></p>
+    <p><a href="/pages/pdfs/surgical_robotics"><ins>LPD surgurcal project Report</ins></a></p>
 </details>

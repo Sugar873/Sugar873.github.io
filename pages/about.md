@@ -24,4 +24,4 @@ I have been involved in several notable projects, including:
 
 I love seeing my code have a real positive impact and enjoy staying updated with technological advancements. If you’d like to know more about my projects or my experience, please check out the Projects section or the Work Experience tab.
 
-When I’m not coding, you can find me practicing Judo where I hold a blue belt, freestyle wrestling, staying active, reading comics, or playing video games. Feel free to reach out to me at [Email](mailto:sagarsyal83@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/sagar-syal) for any collaborations or opportunities.
+When I’m not coding, you can find me practicing Judo where I hold a blue belt, freestyle wrestling, staying active, reading comics, or playing video games. Feel free to reach out to me at [<ins>Email</ins>](mailto:sagarsyal83@gmail.com) or connect with me on [<ins>LinkedIn</ins>](https://www.linkedin.com/in/sagar-syal) for any collaborations or opportunities.

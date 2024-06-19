@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <script src="/assets/scripts/toggle.js"></script>
+    
     <style>
       #header_wrap {
         background: url('/assets/images/Banner.png') no-repeat center center;
@@ -46,11 +47,12 @@
       <ul>
         <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home Page</a></li>
         <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About Me</a></li>
-        <li><a href="/pages/resume" {% if page.url == "/pages/resume" %}class="active"{% endif %}>Resume</a></li>
+        <li><a href="/resume/" {% if page.url == "/resume/" %}class="active"{% endif %}>Resume</a></li>
         <li><a href="/projects/" {% if page.url == "/projects/" %}class="active"{% endif %}>Projects</a></li>
         <li><a href="/experience/" {% if page.url == "/experience/" %}class="active"{% endif %}>Experience</a></li>
         <li><a href="/education/" {% if page.url == "/education/" %}class="active"{% endif %}>Education</a></li>
         <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
+        <li><i id="mode-switcher" class="fa-regular fa-sun"></i></li>
       </ul>
     </div>
 
@@ -75,9 +77,10 @@
           <a href="tel:+16476853960"><i class="fas fa-phone"></i></a>
           <a href="https://www.linkedin.com/in/sagar-syal"><i class="fab fa-linkedin"></i></a>
           <a href="https://github.com/Sugar873"><i class="fab fa-github"></i></a>
+          
         </div>
-        
       </footer>
     </div>
-  </body>
+<script src="/assets/scripts/toggle.js"></script>  
+</body>
 </html>
