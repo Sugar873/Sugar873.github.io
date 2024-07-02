@@ -47,6 +47,9 @@ permalink: /projects/
             Your browser does not support the video tag.
         </video>
     </div>
+    <div style="display: flex; justify-content: center;">
+        <iframe width="630" height="490" src="https://www.youtube.com/embed/gwZatVxmcJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     </ul>
     <h5>Conclusion</h5>
     <p>The project successfully developed an autonomous mapping and navigation system using ROS and SLAM algorithms, despite challenges with hardware safety. Future improvements include refining obstacle detection and further optimizing path planning algorithms in a simulation environment.</p>
