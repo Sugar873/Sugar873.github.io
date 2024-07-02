@@ -28,7 +28,7 @@ permalink: /projects/
     </ul>
     <h5>Experiments and Results</h5>
     <ul>
-    <li>Incident Handling: An electrical fire incident led to a shift in focus to simulation-based testing, using Gazebo and RVIZ for visualization and performance analysis. For more information the incident report is listed at the bottom of this project</li>
+    <li>Incident Handling: An electrical fire incident, caused by a manufacturer's fault, led to a shift in focus to simulation-based testing. The faulty bot had been recalled, but the university did not receive the notification. Despite this setback, our team remained resilient and adapted quickly. Utilizing Gazebo and RVIZ for visualization and performance analysis, we managed to build and execute the simulation from scratch in under a month. For more information, the detailed incident report is listed at the bottom of this project.</li>
         <figure style="display: flex; flex-direction: column; align-items: center;">
             <img src="/assets/images/robot_on_fire.jpg" alt="Image of Highwonder JetAuto" width="250" height="250">
             <figcaption>Hiwonder JetAuto Self Combusting</figcaption>

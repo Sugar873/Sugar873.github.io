@@ -1,6 +1,5 @@
 ---
-layout: page
-title: 
+layout: page 
 permalink: /experience/
 ---
 
@@ -9,10 +8,9 @@ Romaeris Corporation, Ottawa, Ontario
 May 2023 - September 2023
 
 ### Responsibilities:
-- Developed and maintained embedded software for mission-critical drone flight applications using C and C++, ensuring robust and efficient performance.
+- Developed and maintained embedded software for the error handling system of mission-critical drone flight applications, employing C and C++ to ensure robust and efficient performance.
 - Collaborated with cross-functional teams, including Systems Engineering, to ensure system-software consistency and refinement of software components.
 - Actively participated in Agile methodologies, including daily stand-ups, sprint planning, and retrospectives.
-- Conducted code reviews, debugging, and wrote test procedures; analyzed and implemented corrections for defect reports.
 - Performed engineering testing in the field, investigated problems, and provided practical solutions.
 - Utilized development tools such as Microsoft Visual Studio, GIT, Docker, and Linux to streamline development processes and enhance software quality.
 - Automated data retrieval for drones and pushed the data to a database and the company NAS, ensuring efficient data management and accessibility.
