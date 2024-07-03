@@ -18,10 +18,6 @@ Connect with me on [<ins>LinkedIn</ins>](https://www.linkedin.com/in/sagar-syal)
 
 Check out my projects on [<ins>GitHub</ins>](https://github.com/Sugar873).
 
-## Phone
-
-You can reach me at [<ins>+1 (647) 685-3960</ins>](tel:+16476853960).
-
 ## Location
 
 I'm based in Toronto, Ontario.
