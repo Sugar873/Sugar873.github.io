@@ -3,7 +3,7 @@ layout: page
 title: Experience
 permalink: /experience/
 ---
-<!---
+
 ## Software Engineering Intern
 Romaeris Corporation, Ottawa, Ontario  
 May 2023 - September 2023
@@ -28,7 +28,7 @@ May 2023 - September 2023
 #### Reports:
 - [<ins>Error Handling Report</ins>](/pages/pdfs/error_handling_report)
 - [<ins>Software Comparison Report</ins>](/pages/pdfs/software_comparison )
--->
+
 ## Tutor
 Oxford Learning Kanata, Ottawa, Ontario  
 September 2022 - April 2024
