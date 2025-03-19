@@ -53,7 +53,6 @@ permalink: /resume/
         <li><strong>React</strong> - <em>Intermediate</em>: Knowledgeable in building interactive user interfaces.</li>
         <li><strong>Node.js</strong> - <em>Intermediate</em>: Experienced in server-side development.</li>
         <li><strong>Bootstrap</strong> - <em>Intermediate</em>: Knowledgeable in responsive web design.</li>
-        <li><strong>TensorFlow</strong> - <em>Novice</em>: Basic knowledge in deep learning and neural networks.</li>
         <li><strong>Django</strong> - <em>Novice</em>: Basic web development and backend skills.</li>
         <li><strong>Ruby on Rails</strong> - <em>Novice</em>: Basic understanding of building web applications with Rails.</li>
     </ul>
